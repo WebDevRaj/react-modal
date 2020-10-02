@@ -14,6 +14,7 @@ const Modal = (props) => (
 				opacity: props.show ? '1' : '0'
 			}}
 		>	
+			<span className='closeBtn' onClick={props.toggle}>&#x2716;</span>
 			{props.children}
 		</div>
 	</div>

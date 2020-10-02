@@ -9,3 +9,10 @@
 	box-sizing: border-box;
 	transition: all 0.3s ease-out;
 }
+
+.closeBtn {
+	cursor: pointer;
+    position: absolute;
+	right: 0px;
+    margin-right: 5px;
+}
