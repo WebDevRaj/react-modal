@@ -25,7 +25,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      <Modal show={this.state.isModal} toggle={this.toggleModal}>
+      <Modal show={this.state.isModal} toggle={this.toggleModal} closeOnOverlayClick={false}>
         <div>
           <ul>
             <li>Item 1</li>

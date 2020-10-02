@@ -4,7 +4,7 @@ import './Modal.css';
 
 const Modal = (props) => (
 	<div>
-		<Backdrop  show={props.show} clicked={props.toggle}/>
+		<Backdrop  show={props.show} clicked={props.closeOnOverlayClick ? props.toggle : null}/>
 		<div
 			className="Modal"
 			style={{
